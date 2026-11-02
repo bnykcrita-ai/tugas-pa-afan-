@@ -1,0 +1,27 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "Task Management API using Express.js and TypeScript",
+  "main": "dist/index.js",
+ "scripts": {
+  "dev": "nodemon --exec ts-node src/index.ts"
+},
+  "keywords": [ 
+    "express",
+    "typescript",
+    "task-management",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.8.0"
+  }
+}
